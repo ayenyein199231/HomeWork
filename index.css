@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+
+    background: #ef32d9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+div{
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+}
+
+p{
+    margin-bottom: 12px;
+}
+
+input[type="number"]{
+    border:none;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 150px;
+    height: 60px;
+    /* padding: 10px; */
+    font-size: 20px;
+    text-align: center;
+    border:3px solid gray;
+}
+button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border:3px solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn-guess{
+    
+    font-size: 22px;
+}
+
+.btn-restart{
+    margin-left: 350px;
+    font-size: 18px;
+}
+
+.wrong{
+    border:5px solid red;
+}
+
+.true{
+    border: 5px solid yellow;
+}
